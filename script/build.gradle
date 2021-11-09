@@ -1,0 +1,10 @@
+task installNpmModules(type: Exec) {
+    workingDir "$projectDir"
+    commandLine 'npm', 'install'
+}
+
+task buildScript(type: Exec) {
+    workingDir "$projectDir"
+    commandLine 'npm', 'run', 'build'
+    dependsOn installNpmModules
+}

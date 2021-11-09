@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es6",
+        "lib": ["es5", "es6"],
+        "rootDir": "src",
+        "sourceMap": false
+    }
+}

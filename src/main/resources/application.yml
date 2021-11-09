@@ -1,0 +1,8 @@
+logging:
+  level:
+    ru.reeson2003.telega: TRACE
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 49153
